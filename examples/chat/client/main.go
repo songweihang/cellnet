@@ -2,16 +2,16 @@ package main
 
 import (
 	"bufio"
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/examples/chat/proto"
-	"github.com/davyxu/cellnet/peer"
-	"github.com/davyxu/cellnet/proc"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/examples/chat/proto"
+	"github.com/songweihang/cellnet/peer"
+	"github.com/songweihang/cellnet/proc"
 	"github.com/davyxu/golog"
 	"os"
 	"strings"
 
-	_ "github.com/davyxu/cellnet/peer/tcp"
-	_ "github.com/davyxu/cellnet/proc/tcp"
+	_ "github.com/songweihang/cellnet/peer/tcp"
+	_ "github.com/songweihang/cellnet/proc/tcp"
 )
 
 var log = golog.New("client")

@@ -1,9 +1,9 @@
 package db
 
 import (
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/peer"
-	_ "github.com/davyxu/cellnet/peer/redix"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/peer"
+	_ "github.com/songweihang/cellnet/peer/redix"
 	"github.com/mediocregopher/radix.v2/redis"
 	"testing"
 	"time"

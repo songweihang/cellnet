@@ -2,13 +2,13 @@ package tests
 
 import (
 	"fmt"
-	"github.com/davyxu/cellnet"
-	_ "github.com/davyxu/cellnet/codec/httpform"
-	_ "github.com/davyxu/cellnet/codec/httpjson"
-	"github.com/davyxu/cellnet/peer"
-	httppeer "github.com/davyxu/cellnet/peer/http"
-	"github.com/davyxu/cellnet/proc"
-	_ "github.com/davyxu/cellnet/proc/http"
+	"github.com/songweihang/cellnet"
+	_ "github.com/songweihang/cellnet/codec/httpform"
+	_ "github.com/songweihang/cellnet/codec/httpjson"
+	"github.com/songweihang/cellnet/peer"
+	httppeer "github.com/songweihang/cellnet/peer/http"
+	"github.com/songweihang/cellnet/proc"
+	_ "github.com/songweihang/cellnet/proc/http"
 	"reflect"
 	"testing"
 )

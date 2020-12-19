@@ -3,8 +3,8 @@ package httpjson
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/codec"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/codec"
 	"io"
 	"io/ioutil"
 	"net/http"

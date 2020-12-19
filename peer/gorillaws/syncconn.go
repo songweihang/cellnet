@@ -1,8 +1,8 @@
 package gorillaws
 
 import (
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/peer"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/peer"
 	"github.com/gorilla/websocket"
 	"net"
 	"net/http"

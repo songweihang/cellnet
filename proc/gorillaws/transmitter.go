@@ -2,9 +2,9 @@ package gorillaws
 
 import (
 	"encoding/binary"
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/codec"
-	"github.com/davyxu/cellnet/util"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/codec"
+	"github.com/songweihang/cellnet/util"
 	"github.com/gorilla/websocket"
 )
 

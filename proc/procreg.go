@@ -2,7 +2,7 @@ package proc
 
 import (
 	"fmt"
-	"github.com/davyxu/cellnet"
+	"github.com/songweihang/cellnet"
 	"sort"
 )
 
@@ -36,13 +36,13 @@ func ProcessorList() (ret []string) {
 func getPackageByCodecName(name string) string {
 	switch name {
 	case "gorillaws.ltv":
-		return "github.com/davyxu/cellnet/proc/gorillaws"
+		return "github.com/songweihang/cellnet/proc/gorillaws"
 	case "http":
-		return "github.com/davyxu/cellnet/proc/http"
+		return "github.com/songweihang/cellnet/proc/http"
 	case "tcp.ltv":
-		return "github.com/davyxu/cellnet/proc/tcp"
+		return "github.com/songweihang/cellnet/proc/tcp"
 	case "udp.ltv":
-		return "github.com/davyxu/cellnet/proc/udp"
+		return "github.com/songweihang/cellnet/proc/udp"
 	default:
 		return "package/to/your/proc"
 	}

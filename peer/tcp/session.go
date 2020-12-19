@@ -1,9 +1,9 @@
 package tcp
 
 import (
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/peer"
-	"github.com/davyxu/cellnet/util"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/peer"
+	"github.com/songweihang/cellnet/util"
 	"net"
 	"sync"
 	"sync/atomic"

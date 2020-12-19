@@ -3,9 +3,9 @@ package http
 import (
 	"errors"
 	"fmt"
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/codec"
-	_ "github.com/davyxu/cellnet/codec/httpjson"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/codec"
+	_ "github.com/songweihang/cellnet/codec/httpjson"
 	"io"
 	"io/ioutil"
 	"net/http"

@@ -8,15 +8,15 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/codec"
-	"github.com/davyxu/cellnet/peer"
-	"github.com/davyxu/cellnet/proc"
+	"github.com/songweihang/cellnet"
+	"github.com/songweihang/cellnet/codec"
+	"github.com/songweihang/cellnet/peer"
+	"github.com/songweihang/cellnet/proc"
 	"github.com/davyxu/golog"
 
-	_ "github.com/davyxu/cellnet/codec/json"
-	_ "github.com/davyxu/cellnet/peer/gorillaws"
-	_ "github.com/davyxu/cellnet/proc/gorillaws"
+	_ "github.com/songweihang/cellnet/codec/json"
+	_ "github.com/songweihang/cellnet/peer/gorillaws"
+	_ "github.com/songweihang/cellnet/proc/gorillaws"
 )
 
 var log = golog.New("websocket_server")
